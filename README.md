@@ -1,1 +1,1 @@
-Source repository for the Umbrella [wiki](PZ-Umbrella.github.io/wiki/index.html).
+Source repository for the Umbrella [wiki](https://pz-umbrella.github.io/wiki/).
