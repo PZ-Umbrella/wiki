@@ -26,7 +26,7 @@ EmmyLua (Any supported IDE)
 
 LuaLS (VSCode)
 --------------
-.. note:: You may need to restart your computer after installing Git for the addon manager to work correctly.
+.. note:: You may need to restart your computer after installing Git for the addon manager to work correctly. If you can't get the addon manager to work, try :ref:`lua-ls-manual`.
 
 1. Install `Git`_: LuaLS's addon manager needs it to download addons.
 2. Install `LuaLS`_.
@@ -35,8 +35,10 @@ LuaLS (VSCode)
 5. Search for Umbrella (or Umbrella (Unstable) for unstable versions of Project Zomboid) and click enable.
 6. Repeat steps 3-5 for new projects.
 
-LuaLS (Manual Installation)
----------------------------
+.. _lua-ls-manual:
+
+LuaLS (Any IDE)
+---------------
 1. Install LuaLS for your IDE.
 2. Download Umbrella from `Releases`_. If you're familiar with Git, you can clone it instead.
 3. At the root of your project, create ``.luarc.json`` with the following contents, replacing PATH_TO_UMBRELLA with the full path to your copy of Umbrella.
@@ -45,7 +47,7 @@ LuaLS (Manual Installation)
 
     {
         "$schema": "https://raw.githubusercontent.com/LuaLS/vscode-lua/master/setting/schema.json",
-        "workspace.library": ["PATH_TO_UMBRELLA/"],
+        "workspace.library": ["PATH_TO_UMBRELLA/library"],
     }
 
 4. Repeat step 3 for new projects.
